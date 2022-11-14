@@ -1,0 +1,33 @@
+Useful docker notes 
+
+To DOCKERIZE an app you need to create a Docker file inside the project folder where you will specify the commands on what docker needs to do. This file contains the instructions on how to package the software into an image. 
+
+ 
+
+DOCKER FILE INCLUDES: 
+
+ 
+
+FROM  
+
+COPY 
+
+WORKDIR 
+
+CMD  
+
+ 
+
+You need to open a new file in vs code and name it Dockerfile, this file type has no extension. 
+
+In order to build  a docker image you need to type this comand: docker build –t <the tag for the project>. 
+
+ 
+
+In order to view the docker images in your computer you need to type docker image ls. 
+
+In order to run a docker file type docker run 
+
+ 
+
+To pull the latest image into another computer type docker pull dockerusername/dockertag 
